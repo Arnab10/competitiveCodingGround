@@ -10,7 +10,7 @@ int maxcrosssum(int *arr,int low,int mid,int high);
 int main()  
 {  
 int arr[] = {-2, 5, 4, -2, -4, 1, 5, -6};
-cout<<maxsum(arr,0,*(&arr + 1) - arr-1);
+cout<<maxsum(arr,0,*(&arr + 1) - arr-1);                    //*(&arr + 1) - arr-1 = highest index of array
 return 0;  
 } 
 
