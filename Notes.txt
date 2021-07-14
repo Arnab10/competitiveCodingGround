@@ -1,6 +1,0 @@
-to replace a string with another substring : 
-              str.replace(str.find(str2),str2.length(),str3);
-              Where
-              str is the base string
-              str2 is the sub string to find
-              str3 is the replacement substring
