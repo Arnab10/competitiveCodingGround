@@ -1,30 +1,12 @@
 #include<bits/stdc++.h>
 //using namespace std;
 #define degree(x) (x)*180/M_PI
+#define isTop(x,y) (imag(x) > imag(y)) && (real(x) == real(y))
+#define isRight(x,y) (imag(x) == imag(y)) && (real(x)>real(y))
+#define isLeft(x,y) (imag(x) == imag(y)) && (real(x)<real(y))
+#define isButtom(x,y) (imag(x) < imag(y)) && (real(x) == real(y))
 
 using namespace std;
-
-bool isTop(complex <int> x,complex <int> y) {
-    if((imag(x) > imag(y)) && (real(x) == real(y)))
-        return true;
-    else 
-        return false;
-}
-bool isRight(complex <int> x,complex <int> y) {
-    if((imag(x) == imag(y)) && (real(x)>real(y)))
-    return true;
-    else return false;
-} 
-bool isLeft(complex <int> x,complex <int> y) {
-    if((imag(x) == imag(y)) && (real(x)<real(y)))
-    return true;
-    else return false;
-}
-bool isButtom(complex <int> x,complex <int> y) {
-    if((imag(x) < imag(y)) && (real(x) == real(y)))
-    return true;
-    else return false;
-}
 
 int main()
 {
