@@ -12,7 +12,7 @@ void merge(int *Arr, int start, int mid, int end) {
 	
 	while(i <= mid) temp[k++] = Arr[i++];				//merge both arrays
 	while(j <= end) temp[k++] = Arr[j++];
-	for(i = start; i <= end; i += 1) Arr[i] = temp[i - start];
+	for(i = start; i <= end; i += 1) Arr[i] = temp[i - start];                      //temp starts with [0 -> k] arr starts with [low -> high]
 }
 
 void mergeSort(int arr[],int low,int high){
