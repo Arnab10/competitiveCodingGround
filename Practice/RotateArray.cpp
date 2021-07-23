@@ -12,8 +12,8 @@ void printv(vector<int>& vec){
 	}
 	cout<<"}"<<"\n";
 }
-void rotate(vector<int>& vec, int k){
-	k = k%vec.size();
+void rotate(vector<int>& vec, int k){		
+	k = k%vec.size();									//reverse the vector bgut vec.begin() will remain same
 	reverse(vec.begin(),vec.end());
 	reverse(vec.begin(),vec.begin()+k);
 	reverse(vec.begin()+k,vec.end());
