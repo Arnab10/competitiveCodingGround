@@ -1,3 +1,6 @@
+
+/*cpp code to find maximum of an array using recursion,w hich improves the number of comparisons to be made*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
