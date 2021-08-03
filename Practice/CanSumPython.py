@@ -9,10 +9,9 @@ def play(arr,sum,i,store):
         return True
     elif(i == len(arr)):
         return False 
-    store.append(arr[i]) 
+    store.append(arr[i])            #take 
     cs1  = play(arr,sum-arr[i],i+1,store)
-    if len(store) != 0 :
-        store.pop()
+    store.pop()                     #not take
     cs2 = play(arr,sum,i+1,store)
     return cs1 or cs2
 
