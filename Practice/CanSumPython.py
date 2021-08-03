@@ -1,6 +1,8 @@
 import sys
 sys.setrecursionlimit(1000)
-
+""""
+Input a number and find all possible sets which adds up to the input number
+""""
 def play(arr,sum,i,store):
     if(sum==0):
         print(store)
