@@ -15,7 +15,7 @@ def play(arr,sum,i,store):
         for j in range(1,sum+1):
             if j< arr[i-1]:
                 dp[i][j] = dp[i-1][j]
-            if j>= arr[i-1]:
+            else:
                 dp[i][j] = dp[i-1][j] or dp[i-1][j-arr[i-1]]
     print(dp)
     return dp [len(arr)][sum]
