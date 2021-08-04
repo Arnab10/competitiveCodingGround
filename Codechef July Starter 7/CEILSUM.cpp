@@ -1,10 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 const char nl = '\n';
-void display(vector<int>& vec){
-    for(auto i : vec) cout<<i<<" ";
-    cout<<nl;
-}
 
 void solve(){
 	int a,b;
