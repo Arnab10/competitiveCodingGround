@@ -1,5 +1,6 @@
 #include<iostream>
 //#define abs(a) (a>=0) ? a : -1*a
+//arnab
 using namespace std;
 
 int abs(int x){
