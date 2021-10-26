@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/rotate-image/
+//Just transpose a Matrix(Better approach)
 
 #include<bits/stdc++.h>
 using namespace std;
