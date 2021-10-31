@@ -1,5 +1,3 @@
-//https://www.codingninjas.com/codestudio/problems/count-inversions_615
-
 #include <iostream>
 using namespace std;
 
