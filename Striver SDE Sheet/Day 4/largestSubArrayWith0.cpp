@@ -8,7 +8,7 @@ class Solution{
     int maxLen(vector<int>&nums, int n)
     {   
         // Your code here
-        int sum=10,len=0;
+        int sum=10,len=0;               //initially let any value be sum, except 0.
         unordered_map<int,int> maps;
         maps[10] = -1;
         for(int i=0;i<n;i++){
