@@ -17,7 +17,7 @@ void traversal(vector<int> adj[],int node, vector<int>& vis,vector<int>& dfs){
 vector<int> dfsOfGraph(int V, vector<int> adj[]){
   vector<int> dfs;
   vector<int> vis(V+1,0);
-  for(int i=1;i<=V;i++){
+  for(int i=1;i<=V;i++){  //loop to catch disconnected components
     if(!vis[i]){
       traversal(adj,i,vis,dfs);
     }
